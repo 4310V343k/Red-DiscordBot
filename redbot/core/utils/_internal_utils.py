@@ -30,7 +30,7 @@ from typing import (
 )
 
 import aiohttp
-import discord
+import disnake as discord
 import pkg_resources
 from fuzzywuzzy import fuzz, process
 from rich.progress import ProgressColumn

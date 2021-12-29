@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Tuple, Union, Iterable, Collection, Optional, Dict, Set, List, cast
 from collections import defaultdict
 
-import discord
+import disnake as discord
 from redbot.core import checks, commands, Config, version_info as red_version_info
 from redbot.core.bot import Red
 from redbot.core.data_manager import cog_data_path

@@ -158,7 +158,7 @@ Bug Fixes
 - Red will now prevent users from locking the guild owner out with localblacklist (unless the command caller is bot owner). (`#3221 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3221>`_)
 - Guild owners are no longer affected by the local whitelist and blacklist. (`#3221 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3221>`_)
 - Fixed an attribute error that can be raised in ``humanize_timedelta`` if ``seconds = 0``. (`#3231 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3231>`_)
-- Fixed ``ctx.clean_prefix`` issues resulting from undocumented changes from discord. (`#3249 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3249>`_)
+- Fixed ``ctx.clean_prefix`` issues resulting from undocumented changes from disnake. (`#3249 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3249>`_)
 - ``redbot.core.bot.Bot.owner_id`` is now set in the post connection startup. (`#3273 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3273>`_)
 - ``redbot.core.bot.Bot.send_to_owners()`` and ``redbot.core.bot.Bot.get_owner_notification_destinations()`` now wait until Red is done with post connection startup to ensure owner ID is available. (`#3273 <https://github.com/Cog-Creators/Red-DiscordBot/issues/3273>`_)
 

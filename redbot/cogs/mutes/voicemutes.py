@@ -2,7 +2,7 @@ from typing import Optional, Tuple, Union
 from datetime import timezone, timedelta, datetime
 from .abc import MixinMeta
 
-import discord
+import disnake as discord
 from redbot.core import commands, checks, i18n, modlog
 from redbot.core.utils.chat_formatting import (
     bold,

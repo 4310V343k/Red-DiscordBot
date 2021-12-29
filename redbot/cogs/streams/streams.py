@@ -1,4 +1,4 @@
-import discord
+import disnake as discord
 from redbot.core.bot import Red
 from redbot.core import checks, commands, Config
 from redbot.core.i18n import cog_i18n, Translator, set_contextual_locales_from_guild

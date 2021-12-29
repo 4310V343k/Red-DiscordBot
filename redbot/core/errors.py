@@ -1,6 +1,6 @@
 import importlib.machinery
 
-import discord
+import disnake as discord
 
 from redbot.core.utils.chat_formatting import humanize_number
 from .i18n import Translator

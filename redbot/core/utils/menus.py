@@ -6,7 +6,7 @@ import asyncio
 import contextlib
 import functools
 from typing import Iterable, List, Union
-import discord
+import disnake as discord
 
 from .. import commands
 from .predicates import ReactionPredicate

@@ -1,4 +1,4 @@
-import discord
+import disnake as discord
 
 from redbot.core.bot import Red
 from redbot.core.config import Config

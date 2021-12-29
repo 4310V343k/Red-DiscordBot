@@ -5,7 +5,7 @@ from abc import ABC
 from collections import defaultdict
 from typing import List, Tuple, Literal
 
-import discord
+import disnake as discord
 from redbot.core.utils import AsyncIter
 
 from redbot.core import Config, modlog, commands

@@ -4,7 +4,7 @@ import logging
 
 from typing import List
 
-import discord
+import disnake as discord
 import lavalink
 
 from redbot.core import commands

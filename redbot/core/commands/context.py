@@ -5,8 +5,8 @@ import contextlib
 import os
 import re
 from typing import Iterable, List, Union, Optional, TYPE_CHECKING
-import discord
-from discord.ext.commands import Context as DPYContext
+import disnake as discord
+from disnake.ext.commands import Context as DPYContext
 
 from .requires import PermState
 from ..utils.chat_formatting import box

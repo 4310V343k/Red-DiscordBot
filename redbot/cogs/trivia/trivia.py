@@ -8,7 +8,7 @@ from schema import Schema, Optional, Or, SchemaError
 
 import io
 import yaml
-import discord
+import disnake as discord
 
 from redbot.core import Config, commands, checks, bank
 from redbot.core.data_manager import cog_data_path

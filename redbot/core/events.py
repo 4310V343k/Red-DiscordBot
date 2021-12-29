@@ -5,10 +5,10 @@ import sys
 import codecs
 import logging
 import traceback
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 import aiohttp
-import discord
+import disnake as discord
 import pkg_resources
 from pkg_resources import DistributionNotFound
 from redbot.core import data_manager
@@ -81,7 +81,7 @@ def init_events(bot, cli_flags):
         table_general_info.add_row("Prefixes", ", ".join(prefixes))
         table_general_info.add_row("Language", lang)
         table_general_info.add_row("Red version", red_version)
-        table_general_info.add_row("Discord.py version", dpy_version)
+        table_general_info.add_row("Disnake.py version", dpy_version)
         table_general_info.add_row("Storage type", data_manager.storage_type())
 
         table_counts = Table(show_edge=False, show_header=False, box=box.MINIMAL)
@@ -341,7 +341,7 @@ def init_events(bot, cli_flags):
             not bot._checked_time_accuracy
             or (discord_now - timedelta(minutes=60)) > bot._checked_time_accuracy
         ):
-            system_now = datetime.utcnow()
+            system_now = discord.utils.utcnow()
             diff = abs((discord_now - system_now).total_seconds())
             if diff > 60:
                 log.warning(

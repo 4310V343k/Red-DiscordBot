@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 from typing import Optional, Union
 
-import discord
+import disnake as discord
 
 from redbot.core import checks, commands, modlog
 from redbot.core.bot import Red

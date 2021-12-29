@@ -1,4 +1,4 @@
-import discord
+import disnake as discord
 
 import random
 

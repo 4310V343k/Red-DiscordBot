@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Callable, List, MutableMapping, Optional, Tuple, Union, cast
 
 import aiohttp
-import discord
+import disnake as discord
 import lavalink
 
 from lavalink.rest_api import LoadResult, LoadType

@@ -25,9 +25,9 @@ from typing import (
     Union,
 )
 
-import discord
+import disnake as discord
 
-from discord.ext.commands import check
+from disnake.ext.commands import check
 from .errors import BotMissingPermissions
 
 if TYPE_CHECKING:

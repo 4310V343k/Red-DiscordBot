@@ -32,9 +32,9 @@ from typing import (
 )
 from types import MappingProxyType
 
-import discord
-from discord.ext import commands as dpy_commands
-from discord.ext.commands import when_mentioned_or
+import disnake as discord
+from disnake.ext import commands as dpy_commands
+from disnake.ext.commands import when_mentioned_or
 
 from . import Config, i18n, commands, errors, drivers, modlog, bank
 from .cog_manager import CogManager, CogManagerUI

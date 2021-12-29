@@ -7,7 +7,7 @@ from collections import OrderedDict
 from typing import Iterable, List, Mapping, Tuple, Dict, Set, Literal
 from urllib.parse import quote_plus
 
-import discord
+import disnake as discord
 from fuzzywuzzy import process
 
 from redbot.core import Config, checks, commands

@@ -69,7 +69,7 @@ author = "Cog Creators"
 # built documents.
 #
 from redbot.core import __version__
-from discord import __version__ as dpy_version
+from disnake import __version__ as dpy_version
 
 # The short X.Y version.
 version = __version__

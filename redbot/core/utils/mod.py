@@ -2,7 +2,7 @@ import asyncio
 from datetime import timedelta
 from typing import List, Iterable, Union, TYPE_CHECKING, Dict
 
-import discord
+import disnake as discord
 
 if TYPE_CHECKING:
     from ..bot import Red

@@ -1,7 +1,7 @@
 """Errors module for the commands package."""
 import inspect
-import discord
-from discord.ext import commands
+import disnake as discord
+from disnake.ext import commands
 
 __all__ = [
     "ConversionFailure",

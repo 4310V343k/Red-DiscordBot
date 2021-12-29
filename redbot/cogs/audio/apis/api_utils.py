@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List, MutableMapping, Optional, Union
 
-import discord
+import disnake as discord
 import lavalink
 
 from redbot.core.bot import Red

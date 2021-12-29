@@ -10,7 +10,7 @@ from io import BytesIO
 from pathlib import Path
 from typing import cast
 
-import discord
+import disnake as discord
 import lavalink
 
 from redbot.core import commands

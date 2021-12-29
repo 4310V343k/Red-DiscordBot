@@ -7,7 +7,7 @@ from pathlib import Path
 
 from typing import Union
 
-import discord
+import disnake as discord
 import lavalink
 
 from redbot.core import bank, commands

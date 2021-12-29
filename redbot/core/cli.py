@@ -4,8 +4,8 @@ import logging
 import sys
 from typing import Optional
 
-import discord
-from discord import __version__ as discord_version
+import disnake as discord
+from disnake import __version__ as discord_version
 
 
 def confirm(text: str, default: Optional[bool] = None) -> bool:

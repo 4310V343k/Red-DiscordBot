@@ -3,7 +3,7 @@ import datetime
 from dateutil.relativedelta import relativedelta
 
 import pytest
-from discord.ext import commands as dpy_commands
+from disnake.ext import commands as dpy_commands
 
 from redbot.core import commands
 from redbot.core.commands import converter

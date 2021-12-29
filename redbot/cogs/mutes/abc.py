@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import List, Tuple, Optional, Dict, Union
 from datetime import datetime
 
-import discord
+import disnake as discord
 from redbot.core import Config, commands
 from redbot.core.bot import Red
 

@@ -1,4 +1,4 @@
-import discord
+import disnake as discord
 from redbot.core import commands
 from redbot.core.i18n import Translator
 

@@ -5,7 +5,7 @@ import math
 import random
 from pathlib import Path
 
-import discord
+import disnake as discord
 import lavalink
 
 from redbot.core import commands

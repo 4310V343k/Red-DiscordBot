@@ -24,7 +24,7 @@ from string import ascii_letters, digits
 from typing import TYPE_CHECKING, Union, Tuple, List, Optional, Iterable, Sequence, Dict, Set
 
 import aiohttp
-import discord
+import disnake as discord
 from babel import Locale as BabelLocale, UnknownLocaleError
 from redbot.core.data_manager import storage_type
 
@@ -4190,7 +4190,7 @@ class Core(commands.commands._RuleDropper, commands.Cog, CoreLogic):
             f"Python version: {pyver}\n"
             f"Pip version: {pipver}\n"
         )
-        resp_red_metadata = f"Red version: {redver}\nDiscord.py version: {dpy_version}\n"
+        resp_red_metadata = f"Red version: {redver}\nDisnake.py version: {dpy_version}\n"
         resp_red_vars_intro = "## Red variables:"
         resp_red_vars = (
             f"Instance name: {data_manager.instance_name}\n"

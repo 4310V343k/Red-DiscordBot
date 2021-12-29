@@ -5,7 +5,7 @@ from collections import namedtuple
 from copy import copy
 from typing import Union, Optional, Literal
 
-import discord
+import disnake as discord
 
 from redbot.cogs.warnings.helpers import (
     warning_points_add_check,

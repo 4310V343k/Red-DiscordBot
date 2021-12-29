@@ -4,7 +4,7 @@ from typing import Union, List, Literal
 from datetime import timedelta
 from copy import copy
 import contextlib
-import discord
+import disnake as discord
 
 from redbot.core import Config, checks, commands
 from redbot.core.utils import AsyncIter

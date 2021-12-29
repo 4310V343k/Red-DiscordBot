@@ -9,9 +9,9 @@ import struct
 from pathlib import Path
 from typing import Any, Final, Mapping, MutableMapping, Pattern, Union, cast
 
-import discord
+import disnake as discord
 import lavalink
-from discord.embeds import EmptyEmbed
+from disnake.embeds import EmptyEmbed
 
 from redbot.core import bank, commands
 from redbot.core.commands import Context

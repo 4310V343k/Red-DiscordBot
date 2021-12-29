@@ -5,7 +5,7 @@ import functools
 import io
 import os
 import logging
-import discord
+import disnake as discord
 
 from pathlib import Path
 from typing import Callable, TYPE_CHECKING, Union, Dict, Optional

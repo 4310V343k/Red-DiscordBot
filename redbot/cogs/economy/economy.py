@@ -6,7 +6,7 @@ from enum import Enum
 from math import ceil
 from typing import cast, Iterable, Union, Literal
 
-import discord
+import disnake as discord
 
 from redbot.core import Config, bank, commands, errors, checks
 from redbot.core.commands.converter import TimedeltaConverter

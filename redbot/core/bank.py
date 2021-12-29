@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from typing import Union, List, Optional, TYPE_CHECKING, Literal
 from functools import wraps
 
-import discord
+import disnake as discord
 
 from redbot.core.utils import AsyncIter
 from redbot.core.utils.chat_formatting import humanize_number

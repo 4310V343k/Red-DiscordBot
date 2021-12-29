@@ -27,7 +27,7 @@ from typing import (
     Tuple,
 )
 
-import discord
+import disnake as discord
 from redbot.core import data_manager, commands, Config
 from redbot.core.utils._internal_utils import safe_delete
 from redbot.core.i18n import Translator

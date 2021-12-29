@@ -5,7 +5,7 @@ from pathlib import Path
 
 from typing import Final, MutableMapping, Optional, Pattern, Tuple, Union
 
-import discord
+import disnake as discord
 
 from redbot.core import commands
 from redbot.core.bot import Red

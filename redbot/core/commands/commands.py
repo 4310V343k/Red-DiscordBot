@@ -25,8 +25,8 @@ from typing import (
     cast,
 )
 
-import discord
-from discord.ext.commands import (
+import disnake as discord
+from disnake.ext.commands import (
     BadArgument,
     CommandError,
     CheckFailure,
@@ -1029,7 +1029,7 @@ class Cog(CogMixin, DPYCog, metaclass=DPYCogMeta):
     """
     Red's Cog base class
 
-    This includes a metaclass from discord.py
+    This includes a metaclass from disnake.py
 
     .. warning::
 

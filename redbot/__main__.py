@@ -17,7 +17,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import NoReturn
 
-import discord
+import disnake as discord
 import rich
 
 # Set the event loop policies here so any subsequent `new_event_loop()`
@@ -92,7 +92,7 @@ def debug_info():
         + "Red version: {}\n".format(redver)
         + "Python version: {}\n".format(pyver)
         + "Python executable: {}\n".format(sys.executable)
-        + "Discord.py version: {}\n".format(dpy_version)
+        + "Disnake.py version: {}\n".format(dpy_version)
         + "Pip version: {}\n".format(pipver)
         + "OS version: {}\n".format(osver)
         + "System arch: {}\n".format(platform.machine())

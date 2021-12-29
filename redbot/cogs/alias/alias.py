@@ -5,7 +5,7 @@ from re import search
 from string import Formatter
 from typing import Dict, List, Literal
 
-import discord
+import disnake as discord
 from redbot.core import Config, commands, checks
 from redbot.core.i18n import Translator, cog_i18n
 from redbot.core.utils.chat_formatting import box, pagify

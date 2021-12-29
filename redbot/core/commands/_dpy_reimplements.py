@@ -16,12 +16,12 @@ from typing import (
     overload,
 )
 
-import discord
-from discord.ext import commands as dpy_commands
+import disnake as discord
+from disnake.ext import commands as dpy_commands
 
 # So much of this can be stripped right back out with proper stubs.
 if not TYPE_CHECKING:
-    from discord.ext.commands import (
+    from disnake.ext.commands import (
         check as check,
         guild_only as guild_only,
         dm_only as dm_only,

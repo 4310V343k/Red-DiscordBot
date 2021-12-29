@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import Callable, ClassVar, List, Optional, Pattern, Sequence, Tuple, Union, cast
 
-import discord
+import disnake as discord
 
 from redbot.core import commands
 

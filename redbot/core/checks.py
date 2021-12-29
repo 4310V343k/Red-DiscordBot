@@ -1,7 +1,7 @@
 import warnings
 from typing import Awaitable, TYPE_CHECKING, Dict
 
-import discord
+import disnake as discord
 
 from .commands import (
     bot_has_permissions,

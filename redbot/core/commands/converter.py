@@ -9,23 +9,12 @@ import functools
 import re
 from datetime import timedelta
 from dateutil.relativedelta import relativedelta
-from typing import (
-    TYPE_CHECKING,
-    Generic,
-    Optional,
-    Optional as NoParseOptional,
-    Tuple,
-    List,
-    Dict,
-    Type,
-    TypeVar,
-    Literal as Literal,
-    Union as UserInputOptional,
-)
+from typing import (_ProtocolMeta, TYPE_CHECKING, Generic, Optional, Optional as NoParseOptional, Tuple, List, Dict,
+                    Type, TypeVar, Literal as Literal, Union as UserInputOptional, )
 
-import discord
-from discord.ext import commands as dpy_commands
-from discord.ext.commands import BadArgument
+import disnake as discord
+from disnake.ext import commands as dpy_commands
+from disnake.ext.commands import BadArgument
 
 from ..i18n import Translator
 from ..utils.chat_formatting import humanize_timedelta, humanize_list
@@ -282,7 +271,7 @@ else:
         Returns a typechecking safe `DictConverter` suitable for use with discord.py
         """
 
-        class PartialMeta(type):
+        class PartialMeta(_ProtocolMeta):
             __call__ = functools.partialmethod(
                 type(DictConverter).__call__, *expected_keys, delims=delims
             )

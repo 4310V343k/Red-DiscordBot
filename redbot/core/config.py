@@ -16,7 +16,7 @@ from typing import (
     Union,
 )
 
-import discord
+import disnake as discord
 
 from .drivers import IdentifierData, get_driver, ConfigCategory, BaseDriver
 

@@ -8,7 +8,7 @@ from typing import Union, List, Optional
 
 import redbot.cogs
 from redbot.core.utils import deduplicate_iterables
-import discord
+import disnake as discord
 
 from . import checks, commands
 from .config import Config

@@ -4,7 +4,7 @@ import textwrap
 from io import BytesIO
 from typing import Iterator, List, Optional, Sequence, SupportsInt, Union
 
-import discord
+import disnake as discord
 from babel.lists import format_list as babel_list
 from babel.numbers import format_decimal
 

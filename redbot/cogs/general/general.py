@@ -5,7 +5,7 @@ from random import randint, choice
 from typing import Final
 import urllib.parse
 import aiohttp
-import discord
+import disnake as discord
 from redbot.core import commands
 from redbot.core.i18n import Translator, cog_i18n
 from redbot.core.utils.menus import menu, DEFAULT_CONTROLS

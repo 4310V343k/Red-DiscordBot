@@ -5,7 +5,7 @@ import logging
 from datetime import datetime, timedelta, timezone
 from typing import List, Literal, Union, Optional, cast, TYPE_CHECKING
 
-import discord
+import disnake as discord
 
 from redbot.core import Config
 from .utils import AsyncIter

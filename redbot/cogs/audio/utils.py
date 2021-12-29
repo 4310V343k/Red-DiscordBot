@@ -7,7 +7,7 @@ from enum import Enum, unique
 from pathlib import Path
 from typing import MutableMapping
 
-import discord
+import disnake as discord
 
 from redbot.core import commands
 from redbot.core.i18n import Translator

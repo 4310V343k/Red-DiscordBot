@@ -17,7 +17,7 @@ Basic Usage
 .. code-block:: python
 
     from redbot.core import bank, commands
-    import discord
+    import disnake as discord
 
     class MyCog(commands.Cog):
         @commands.command()

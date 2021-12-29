@@ -33,8 +33,8 @@ from collections import namedtuple
 from dataclasses import dataclass, asdict as dc_asdict
 from typing import Union, List, AsyncIterator, Iterable, cast
 
-import discord
-from discord.ext import commands as dpy_commands
+import disnake as discord
+from disnake.ext import commands as dpy_commands
 
 from . import commands
 from .context import Context

@@ -10,7 +10,7 @@ import re
 from contextlib import redirect_stdout
 from copy import copy
 
-import discord
+import disnake as discord
 
 from . import checks, commands
 from .commands import NoParseOptional as Optional

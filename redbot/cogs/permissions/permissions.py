@@ -4,7 +4,7 @@ import textwrap
 from copy import copy
 from typing import Union, Optional, Dict, List, Tuple, Any, Iterator, ItemsView, Literal, cast
 
-import discord
+import disnake as discord
 import yaml
 from schema import And, Or, Schema, SchemaError, Optional as UseOptional
 from redbot.core import checks, commands, config

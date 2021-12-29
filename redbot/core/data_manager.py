@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 import appdirs
-from discord.utils import deprecated
+from disnake.utils import deprecated
 
 from . import commands
 

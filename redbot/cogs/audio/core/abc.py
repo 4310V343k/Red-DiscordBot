@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Set, TYPE_CHECKING, Any, List, Mapping, MutableMapping, Optional, Tuple, Union
 
 import aiohttp
-import discord
+import disnake as discord
 import lavalink
 
 from redbot.core import Config, commands

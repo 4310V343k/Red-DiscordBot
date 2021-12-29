@@ -23,7 +23,7 @@ from typing import (
     Coroutine,
 )
 
-from discord.utils import maybe_coroutine
+from disnake.utils import maybe_coroutine
 
 __all__ = (
     "bounded_gather",

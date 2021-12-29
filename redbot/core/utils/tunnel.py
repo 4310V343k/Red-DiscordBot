@@ -1,5 +1,5 @@
 import asyncio
-import discord
+import disnake as discord
 from datetime import datetime
 from redbot.core.utils.chat_formatting import pagify
 import io

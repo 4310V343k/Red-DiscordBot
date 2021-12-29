@@ -4,7 +4,7 @@ import logging
 from pathlib import Path
 from typing import List, Union
 
-import discord
+import disnake as discord
 import lavalink
 
 from fuzzywuzzy import process

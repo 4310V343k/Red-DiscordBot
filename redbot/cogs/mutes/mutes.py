@@ -1,6 +1,6 @@
 import asyncio
 import contextlib
-import discord
+import disnake as discord
 import logging
 
 from abc import ABC
@@ -118,7 +118,7 @@ class Mutes(VoiceMutes, commands.Cog, metaclass=CompositeMetaClass):
     ):
         """Mutes are considered somewhat critical
         Therefore the only data that we should delete
-        is that which comes from discord requesting us to
+        is that which comes from disnake.requesting us to
         remove data about a user
         """
         if requester != "discord_deleted_user":

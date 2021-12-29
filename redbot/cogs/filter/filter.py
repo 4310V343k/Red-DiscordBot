@@ -1,5 +1,5 @@
 import asyncio
-import discord
+import disnake as discord
 import re
 from datetime import timezone
 from typing import Union, Set, Literal

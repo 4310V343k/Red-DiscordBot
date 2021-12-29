@@ -3,7 +3,7 @@ import asyncio
 import time
 import random
 from collections import Counter
-import discord
+import disnake as discord
 from redbot.core import bank, errors
 from redbot.core.i18n import Translator
 from redbot.core.utils.chat_formatting import box, bold, humanize_list, humanize_number

@@ -25,7 +25,7 @@ DEALINGS IN THE SOFTWARE.
 """
 
 import asyncio
-import discord
+import disnake as discord
 
 import itertools
 import inspect

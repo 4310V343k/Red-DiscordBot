@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from typing import ClassVar, Optional, List, Tuple
 
 import aiohttp
-import discord
+import disnake as discord
 
 from .errors import (
     APIError,

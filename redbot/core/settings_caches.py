@@ -5,7 +5,7 @@ import asyncio
 from argparse import Namespace
 from collections import defaultdict
 
-import discord
+import disnake as discord
 
 from .config import Config
 from .utils import AsyncIter

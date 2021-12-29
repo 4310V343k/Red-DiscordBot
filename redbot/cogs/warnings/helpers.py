@@ -1,6 +1,6 @@
 from copy import copy
 import asyncio
-import discord
+import disnake as discord
 
 from redbot.core import Config, checks, commands
 from redbot.core.commands.requires import PrivilegeLevel

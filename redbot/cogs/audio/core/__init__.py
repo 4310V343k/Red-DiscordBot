@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Mapping
 
 import aiohttp
-import discord
+import disnake as discord
 
 from redbot.core import Config
 from redbot.core.bot import Red

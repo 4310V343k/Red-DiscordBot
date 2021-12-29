@@ -17,7 +17,7 @@ Basic Usage
 .. code-block:: python
 
     from redbot.core import commands, modlog
-    import discord
+    import disnake as discord
 
     class MyCog(commands.Cog):
         @commands.command()
@@ -42,7 +42,7 @@ it from your setup function:
 
     # mycog/mycog.py
     from redbot.core import modlog, commands
-    import discord
+    import disnake as discord
 
     class MyCog(commands.Cog):
 

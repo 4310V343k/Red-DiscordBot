@@ -85,7 +85,7 @@ from ._dpy_reimplements import (
 )
 
 ### DEP-WARN: Check this *every* discord.py update
-from discord.ext.commands import (
+from disnake.ext.commands import (
     BadArgument as BadArgument,
     EmojiConverter as EmojiConverter,
     GuildConverter as GuildConverter,

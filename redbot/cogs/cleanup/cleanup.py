@@ -3,7 +3,7 @@ import logging
 from datetime import datetime, timedelta
 from typing import Callable, List, Optional, Set, Union
 
-import discord
+import disnake as discord
 
 from redbot.core import checks, commands, Config
 from redbot.core.bot import Red

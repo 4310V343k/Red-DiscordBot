@@ -5,10 +5,10 @@ from pathlib import Path
 from typing import List, Optional, Tuple, Union
 
 import aiohttp
-import discord
+import disnake as discord
 import lavalink
 
-from discord.embeds import EmptyEmbed
+from disnake.embeds import EmptyEmbed
 from redbot.core import commands
 from redbot.core.i18n import Translator
 from redbot.core.utils import AsyncIter

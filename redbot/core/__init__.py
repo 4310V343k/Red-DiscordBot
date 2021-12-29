@@ -1,4 +1,4 @@
-import discord as _discord
+import disnake as _discord
 
 from .. import __version__, version_info, VersionInfo
 from .config import Config

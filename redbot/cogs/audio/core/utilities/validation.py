@@ -4,7 +4,7 @@ import re
 from typing import Final, List, Optional, Pattern, Set, Union
 from urllib.parse import urlparse
 
-import discord
+import disnake as discord
 
 from redbot.core import Config
 from redbot.core.commands import Context

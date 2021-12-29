@@ -1,8 +1,8 @@
 from typing import Tuple, Dict, Optional, List, Union
 from re import findall
 
-import discord
-from discord.ext.commands.view import StringView
+import disnake as discord
+from disnake.ext.commands.view import StringView
 from redbot.core import commands, Config
 from redbot.core.i18n import Translator
 from redbot.core.utils import AsyncIter

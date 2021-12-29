@@ -1,7 +1,7 @@
 import datetime
 from typing import cast
 
-import discord
+import disnake as discord
 from redbot.core import commands, i18n, checks
 from redbot.core.utils.common_filters import (
     filter_invites,
