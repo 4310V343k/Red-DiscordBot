@@ -1536,7 +1536,7 @@ class Red(
             self._call_module_finalizers(lib, name)
             raise
         else:
-            self._BotBase__extensions[name] = lib
+            self.__extensions[name] = lib
 
     def remove_cog(self, cogname: str):
         cog = self.get_cog(cogname)
