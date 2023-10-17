@@ -5,7 +5,7 @@ apsw
 babel
 Brotli
 click
-discord.py
+git+https://github.com/Rapptz/discord.py@e1aa6cc
 markdown
 orjson
 packaging
